@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'"Helvetica Neue", Helvetica, Arial, sans-serif';
+    }
+p{
+    color: gray;
+    line-height: 2.1;
+    letter-spacing: 0.035em;
+    font-size: 0.975rem;
+}
+h1, h2, h3, h4, h5, h6 {
+     font-weight: 500; 
+    text-rendering: optimizeLegibility;
+}
+/* topBar */
+#top{
+    height: auto;
+}
+#topBar{
+    margin: auto;
+    background-color:  rgb(222, 41, 71);
+}
+.call{
+    display: flex;
+    padding-top: 15px;
+}
+.icons{
+    display: flex;
+    float: right;
+    height: 60px;
+}
+.fb{
+    padding: 10px;
+    font-size: larger;
+    border-left: 1px solid rgb(234 227 227);
+    width: 60px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+/* navbar */
+#logo {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* slider */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide .title {
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 42px;
+    text-transform: uppercase;
+
+}
+
+.swiper-slide .text {
+    margin-top: 10px;
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 24px;
+    color: #fff;
+    ;
+}
+/* .lower section */
+.lower{
+    height: auto;
+    background-color: rgb(222, 41, 71);
+    color: white;
+    padding: 21px 0;
+}
+.lowerHead{
+    text-transform: uppercase;
+    text-align: center;
+}
+/* expertise */
+#serveIcon{
+    background: rgb(222, 41, 71);
+    font-size: xx-large;
+    width: 61px;
+    height: 60;
+    height: 60px;
+    border-radius: 30px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+#serveIcon:hover{
+    background-color: white;
+    border: 3px solid  rgb(222, 41, 71);
+    color:   rgb(222, 41, 71);
+}
+.servHeading{
+    font-size: 1.758em;
+    text-transform: uppercase;
+    color: black;
+}
+.line{
+    height: 3px;
+    width: 60px;
+    background-color: rgb(222, 41, 71);
+}
+.servHead{
+    text-transform: capitalize;
+    font-size: 1.8em;
+}
+.expImp{
+    width: 100%;
+    height: auto;
+}
+/* our journey */
+#myspon{
+    background-color: rgb(222, 41, 71);
+}
+.rowImg{
+    max-width: 100%;
+    height: auto;
+}
+.sponhead{
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-top: 17px;
+    padding: 10px;
+}
+.sponhead2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 1.71429rem;
+    padding: 10px;
+}.sponLine{
+    width: 45px;
+    height: 2px;
+    background-color: rgb(222, 41, 71);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sponhead3{
+    text-transform: uppercase;
+    color: white;
+}
+.sponhead4{
+    color: white;
+    padding: 10px;
+}
+.LowerBtn{
+    width: 140px;
+    height: 45px;
+    font-size: large;
+    border: none;
+    background: white;
+    text-transform: capitalize;
+}
+/* footer */
+#footer{
+    background: #27262c 
+}
+#footer h5{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.feat{
+    text-transform: uppercase;
+}
+.link{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: inherit;
+}
+.link li{
+    padding: 9px 0;
+    color: #545454;
+}
+.link a:hover{
+    color: white;
+}
+.iconss{
+    display: flex;
+    align-items: baseline;
+}
+
+@media (max-width : 767px){
+    .icons{
+        float: left;
+    }
+    .fb{
+        border:none;
+        width: auto;
+    }
+}
